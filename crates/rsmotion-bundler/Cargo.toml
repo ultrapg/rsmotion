@@ -1,0 +1,16 @@
+[package]
+name = "rsmotion-bundler"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+
+[dependencies]
+anyhow = { workspace = true }
+rolldown = { workspace = true }
+rolldown_utils = "1.3.2"
+serde = { workspace = true }
+serde_json = { workspace = true }
+sha2 = { workspace = true }
+thiserror = { workspace = true }
+tokio = { workspace = true }
+tracing = { workspace = true }

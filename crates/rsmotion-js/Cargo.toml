@@ -1,0 +1,24 @@
+[package]
+name = "rsmotion-js"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+
+[dependencies]
+deno_core = { workspace = true }
+image = { workspace = true }
+rsmotion-core = { workspace = true }
+rsmotion-encode = { workspace = true }
+rsmotion-media = { workspace = true }
+rsmotion-raster = { workspace = true }
+rsmotion-scene = { workspace = true }
+serde = { workspace = true }
+serde_json = { workspace = true }
+skia-safe = { workspace = true }
+thiserror = { workspace = true }
+tokio = { workspace = true }
+tracing = { workspace = true }
+url = { workspace = true }
+
+[dev-dependencies]
+tracing-subscriber = { workspace = true }

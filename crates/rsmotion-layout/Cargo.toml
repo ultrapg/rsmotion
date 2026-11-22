@@ -1,0 +1,13 @@
+[package]
+name = "rsmotion-layout"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+
+[dependencies]
+rsmotion-css = { workspace = true }
+rsmotion-media = { workspace = true }
+rsmotion-scene = { workspace = true }
+serde = { workspace = true }
+taffy = { workspace = true }
+thiserror = { workspace = true }

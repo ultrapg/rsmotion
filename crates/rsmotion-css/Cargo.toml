@@ -1,0 +1,10 @@
+[package]
+name = "rsmotion-css"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+
+[dependencies]
+cssparser = { workspace = true }
+rsmotion-scene = { workspace = true }
+thiserror = { workspace = true }

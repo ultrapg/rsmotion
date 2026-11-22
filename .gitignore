@@ -1,0 +1,9 @@
+/target
+**/node_modules
+/npm/*/dist
+/out
+/tests/fixtures/out
+/tests/fixtures/build
+*.mp4
+!tests/fixtures/public/sample-video.mp4
+.DS_Store
